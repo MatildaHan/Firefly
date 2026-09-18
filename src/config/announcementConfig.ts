@@ -5,14 +5,14 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "欢迎来到我的博客！这是一则示例公告。",
+	content: "你要好好长大，不要输给风，不要输给雨，不要输给冬雪，不要输给炎夏。",
 
 	// 是否允许用户关闭公告
-	closable: true,
+	closable:  false,
 
 	link: {
 		// 启用链接
-		enable: true,
+		enable: false,
 		// 链接文本
 		text: "了解更多",
 		// 链接 URL

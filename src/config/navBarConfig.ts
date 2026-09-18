@@ -18,9 +18,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 文章及其子菜单
 	links.push({
-		name: "文章",
+		name: "杂记",
 		url: "#",
-		icon: "material-symbols:article",
 		children: [
 			// 归档
 			LinkPresets.Archive,
@@ -28,11 +27,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 分类
 			LinkPresets.Categories,
 
-			// 标签
-			LinkPresets.Tags,
-
-			// 系列
-			LinkPresets.Series,
 		],
 	});
 
@@ -54,7 +48,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push({
 		name: "我的",
 		url: "#",
-		icon: "material-symbols:person",
 		children: [
 			// 动态
 			LinkPresets.Dynamic,
@@ -86,7 +79,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push({
 		name: "关于",
 		url: "#",
-		icon: "material-symbols:info",
 		children: [
 			// 打赏
 			LinkPresets.Sponsor,
@@ -96,11 +88,11 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
+	/*
 	// 自定义导航栏链接
 	links.push({
-		name: "链接",
+		name: "相关",
 		url: "#",
-		icon: "material-symbols:link",
 		// 子菜单
 		children: [
 			{
@@ -110,12 +102,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
 				name: "Firefly文档",
 				url: "https://docs-firefly.cuteleaf.cn",
 				external: true,
@@ -123,6 +109,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			},
 		],
 	});
+	*/
 
 	// 文档链接
 	// links.push({
@@ -146,29 +133,24 @@ export const navBarSearchConfig: NavBarSearchConfig = {
 // ============================================================================
 export const LinkPresets: Record<string, NavBarLink> = {
 	Home: {
-		name: "主页",
+		name: "序章",
 		url: "/",
-		icon: "material-symbols:home",
 	},
 	Archive: {
-		name: "归档",
+		name: "列表",
 		url: "/archive/",
-		icon: "material-symbols:archive",
 	},
 	Categories: {
-		name: "分类",
+		name: "类别",
 		url: "/categories/",
-		icon: "material-symbols:folder-open-rounded",
 	},
 	Tags: {
 		name: "标签",
 		url: "/tags/",
-		icon: "material-symbols:tag-rounded",
 	},
 	Series: {
 		name: "系列",
 		url: "/series/",
-		icon: "material-symbols:layers",
 	},
 	Friends: {
 		name: "友链",
@@ -183,9 +165,8 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "guestbook",
 	},
 	Dynamic: {
-		name: "动态",
+		name: "随笔",
 		url: "/dynamic/",
-		icon: "material-symbols:forum-rounded",
 		pageKey: "dynamic",
 	},
 	Projects: {
@@ -227,19 +208,16 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	MAL: {
 		name: "AnimeList",
 		url: "/myanimelist/",
-		icon: "material-symbols:menu-book",
 		pageKey: "mal",
 	},
 	Sponsor: {
 		name: "打赏",
 		url: "/sponsor/",
-		icon: "material-symbols:favorite",
 		pageKey: "sponsor",
 	},
 	About: {
-		name: "关于我",
+		name: "我呀",
 		url: "/about/",
-		icon: "material-symbols:person",
 	},
 };
 

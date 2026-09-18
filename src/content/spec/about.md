@@ -1,27 +1,9 @@
-# 关于我 / About Me
+你好呀！欢迎来到我的博客小站！✨
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+我是雷电将军的忠实信徒，一个在提瓦特大陆上追着「永恒」跑的旅行者。
 
-## 🛠️ 关于本站
+自从在稻妻城第一次见到那位紫发飘逸、眼神威严的将军大人，我就知道——这坑，我躺定了。从此，我的原神日常就变成了：攒原石等雷神复刻、刷绝缘本刷到地老天荒、对着「奶香的一刀」反复尖叫。别人抽卡看强度，我抽卡只看一个理由：她是雷电将军啊！
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+在这个博客里，我会记录一些关于原神的小心得、雷电将军的考据与同人创作，偶尔也会分享一个普通「雷神厨」的日常碎碎念。如果你也喜欢将军大人，或者只是路过想聊聊提瓦特的故事，都欢迎留下来喝杯茶——放心，不是神樱大祓那种。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
-
-
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
-
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
-
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
-
----
-
-*感谢你的来访！希望在这里能找到对你有用的内容！*
-
+愿永恒与你同在，愿我们都能在梦想一心的一刀里，找到属于自己的净土。⚡💜
